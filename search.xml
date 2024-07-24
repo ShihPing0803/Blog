@@ -4,6 +4,25 @@
   
     
     <entry>
+      <title>Hexo 增加搜尋功能</title>
+      <link href="/Blog/2024/07/24/search/"/>
+      <url>/Blog/2024/07/24/search/</url>
+      
+        <content type="html"><![CDATA[<h2 id="Hexo-local-search-功能"><a href="#Hexo-local-search-功能" class="headerlink" title="Hexo local search 功能"></a>Hexo local search 功能</h2><ol><li>執行以下指令<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-search --save</span><br></pre></td></tr></table></figure></li><li>在 _config.yaml 加上以下設置<figure class="highlight yaml"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="attr">search:</span></span><br><span class="line">  <span class="attr">path:</span> <span class="string">search.xml</span></span><br><span class="line">  <span class="attr">field:</span> <span class="string">post</span></span><br><span class="line">  <span class="attr">format:</span> <span class="string">html</span></span><br><span class="line">  <span class="attr">limit:</span> <span class="number">10000</span></span><br></pre></td></tr></table></figure></li><li>在主題裡的 _config.yaml 中找到 local_search，將 <code>enable</code> 改為 true</li><li>最後執行以下命令生成搜索文件<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br></pre></td></tr></table></figure></li><li>再來就可以放到 github 上啦</li></ol>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 部署網站 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>DeepLearning.AI 課程筆記 - Knowledge Graphs for RAG</title>
       <link href="/Blog/2024/07/19/GraphRAG/"/>
       <url>/Blog/2024/07/19/GraphRAG/</url>
